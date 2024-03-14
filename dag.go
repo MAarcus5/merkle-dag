@@ -64,7 +64,7 @@ func StoreDir(store KVStore, dir DIR, h hash.Hash) []byte {
 	}
 
 	// TODO: 将树对象存储到 KVStore 中，并返回哈希值
-	// 例如：store.Put(hash, Serialize(tree))
+	// 例如：store.Put(hash, Serialize(tree))11
 
 	return h.Sum(nil)
 }
